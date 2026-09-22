@@ -1,0 +1,20 @@
+# AgentVersa source materials and local reference docs
+AgentVersa_Student_Program_Rubric.md
+DOC.md
+CONTEXT.md
+AGENTS.md
+files/
+scenarios/
+docs/
+
+# Local scratches and tasks
+.scratch/
+scratch/
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+.idea/

@@ -5,12 +5,6 @@
 
 ---
 
-## About AgentVersa
-
-AgentVersa is a controlled multi-agent simulation research environment developed to study how differently designed, role-conditioned AI agents interpret duties, make technical decisions, interact with peer agents, respond to uncertainty, and evolve behavioral patterns across connected scenarios. This repository documents an independent educational behavioral study; it does not perform real legal casework, execute certified courtroom forensics, or evaluate commercial legal software.
-
----
-
 ## Research Question
 
 > *How does an evidence-led, rule-strict, and risk-averse Digital Evidence Review Agent navigate chain-of-custody gaps, synthetic media manipulation, and scope-creep pressure in multi-agent judicial deliberations—and where does its empirical behavior diverge from its designed intent into analysis paralysis or procedural friction?*

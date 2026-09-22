@@ -1,6 +1,6 @@
 # Ethics, Methodological Boundaries, and Study Limitations
 
-This document establishes the ethical guardrails, epistemic limitations, and methodological boundaries governing the **AgentVersa Student Research Program** and the behavioral study of agent **"Veritas"** (Digital Evidence Review Agent).
+This document establishes the ethical guardrails, epistemic limitations, and methodological boundaries governing the **AgentVersa Student Research Program** and the behavioral study of agent **"Provenance"** (Digital Evidence Review Agent).
 
 ---
 
@@ -15,7 +15,7 @@ All case exhibits (disk images, intercepted voicemail audio, mobile device dumps
 
 ## 2. LLM Stochasticity & Non-Determinism
 
-- **Run-to-Run Output Variance:** Large Language Models (LLMs) operate probabilistically. While Veritas demonstrated high behavioral consistency across the three observed scenarios, identical input conditions in future runs may yield slight variations in phrasing, conversational tone, or the speed of escalation.
+- **Run-to-Run Output Variance:** Large Language Models (LLMs) operate probabilistically. While Provenance demonstrated high behavioral consistency across the three observed scenarios, identical input conditions in future runs may yield slight variations in phrasing, conversational tone, or the speed of escalation.
 - **Sensitivity to Scenario Framing:** Agent outputs are sensitive to subtle changes in prompt wording, temperature, token limits, and dialogue ordering. The findings reported here reflect observed behavior within these specific scenario configurations and should not be assumed to hold unconditionally across all adversarial variations.
 
 ---
@@ -29,14 +29,14 @@ All case exhibits (disk images, intercepted voicemail audio, mobile device dumps
 
 ## 4. Simulated Nature of Risk and Confidence Scores
 
-- **Uncalibrated Metric Heuristics:** Numerical scores generated during episodes—such as Veritas's "78% probability of synthetic generation" or co-agent "risk assessment ratings"—are model-generated approximations, not statistically calibrated or mathematically validated Bayesian probabilities.
+- **Uncalibrated Metric Heuristics:** Numerical scores generated during episodes—such as Provenance's "78% probability of synthetic generation" or co-agent "risk assessment ratings"—are model-generated approximations, not statistically calibrated or mathematically validated Bayesian probabilities.
 - **No Substitute for Laboratory Metrology:** In real-world forensic science, confidence intervals require validated empirical benchmarks, error rate disclosures under Daubert/Frye legal standards, and calibrated instrument measurement. Simulated scores must never be utilized in real judicial determinations.
 
 ---
 
 ## 5. Sample Size & Production Safety Claims
 
-- **Small Scenario Corpus:** This study evaluated Veritas across three focused, multi-agent scenarios. While these scenarios were deliberately designed to probe critical ethical and operational boundaries, a sample size of three episodes cannot establish production reliability, commercial safety, or professional forensic competence.
+- **Small Scenario Corpus:** This study evaluated Provenance across three focused, multi-agent scenarios. While these scenarios were deliberately designed to probe critical ethical and operational boundaries, a sample size of three episodes cannot establish production reliability, commercial safety, or professional forensic competence.
 - **No Claim of General AI Alignment:** Successful resistance to pressure in Scenario 03 demonstrates the efficacy of specific negative constraints, but does not prove that the agent is universally immune to sophisticated jailbreaking, prompt injection, or novel adversarial attacks.
 
 ---
@@ -45,3 +45,9 @@ All case exhibits (disk images, intercepted voicemail audio, mobile device dumps
 
 - **Zero Personally Identifiable Information (PII):** In compliance with program standards and privacy ethics, all names, telephone numbers, cellular carrier logs, email addresses, and case identifiers used in this repository are entirely fictional or synthesized.
 - **No Real-World Data Contamination:** No confidential student data, private academic records, proprietary platform API keys, or raw system prompts are published in this repository.
+
+---
+
+## 7. Prediction Methodology & Repository History
+
+The dated predictions in `predictions/scenario-predictions.md` and the "My prediction" sections in each scenario-observation file are presented as having been recorded before that scenario's results were reviewed, per the program's prediction-before-results protocol. This repository's version control history consists of a single consolidated commit rather than incremental commits made at each dated step, so the git history alone does not independently corroborate the chronological order implied by the in-text dates. Readers evaluating this repository's methodology should weigh the predictions accordingly; going forward, incremental commits at each prediction and reflection step would let the commit history itself substantiate the prediction-before-results claim.
